@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Работа с формами</title>
+    </head>
+
+    <body>
+
+        <div class="form">
+
+            <h1 class="title">Форма</h1>
+
+            <a class="link" href="#">Ссылка</a>
+
+            <form action="/" method="post">
+
+               <div class="form-fieldset">
+                   <h3 class="form-title">Контактная информация</h3>
+
+                   <div class="form-group">
+                      <input class="form-input" type="text" name="name" id="input_name" placeholder="Имя">
+                   </div>
+
+                   <div class="form-group">
+                       <input class="form-input" type="email" name="email" placeholder="Email">
+                   </div>
+
+                   <div class="form-group">
+                       <input class="form-input" type="tel" name="phone" placeholder="Номер телефона">
+                   </div>
+               </div>
+
+
+               <div class="form-fieldset">
+                   <h3 class="form-title">Пароль</h3>
+                   <div class="form-group">
+                       <input class="form-input" type="password" name="password" placeholder="Пароль">
+                   </div>
+               </div>
+
+
+               <fieldset>
+                  <legend>Дополнительная информация</legend>
+                   <div class="form-group">
+                       <textarea class="form-textarea" name="text" placeholder="О вас..."></textarea>
+                   </div>
+               </fieldset>
+
+
+              <fieldset>
+                 <legend>Выберете город</legend>
+                  <div class="form-group">
+                       <select name="city">
+                           <option>Рига</option>
+                           <option>Даугавпилс</option>
+                       </select>
+                   </div>
+              </fieldset>
+
+
+               <fieldset>
+                  <legend>Загрузка фото</legend>
+                   <div class="form-group">
+                       <label for="photo">Фото</label>
+                       <input type="file" name="photo" id="photo">
+                   </div>
+               </fieldset>
+
+
+               <fieldset>
+                   <legend>Пол</legend>
+                   <div class="form-group">
+                       <label for="male">Муж</label><!--
+                    --><input type="radio" name="choose_male" id="male"><!--
+
+                    --><label class="label_female" for="female">Жен</label><!--
+                    --><input type="radio" name="choose_male" id="female">
+                   </div>
+               </fieldset>
+
+
+               <div class="form-group">
+                   <input type="checkbox" name="checkbox" id="agree" checked>
+                   <label for="agree">Соглашаюсь с правилами пользования сервисом</label>
+               </div>
+
+
+               <button class="button" type="submit" disabled>Отправить</button>
+               <button class="button" type="reset">Очистить</button>
+               <button type="button">Кнопка</button>
+
+            </form>
+
+        </div>
+
+    </body>
+</html>
