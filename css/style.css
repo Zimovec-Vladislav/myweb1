@@ -1,10 +1,11 @@
 body {
+    margin: 0;
+
     font: 15px Arial, sans-serif;
     line-height: 1.5;
     color: #333;
 
-    background: #eee url("../img/pattern.png");
-    background-size: 200px 200px;
+    background: #fff;
 }
 
 .title {
@@ -225,43 +226,32 @@ ol {
     margin: 0 0 15px;
 }
 
+/* Modal */
 
+.modal {
+    width: 500px;
+    height: 200px;
+    margin: 20px auto;
+    padding: 15px;
+    position: relative;
 
+    background-color: #eee;
+}
 
+.modal-title {
+    margin: 0;
+}
 
+.square {
+    width: 50px;
+    height: 50px;
 
+    background-color: #333;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
 
 
 
