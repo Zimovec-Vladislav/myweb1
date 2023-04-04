@@ -71,9 +71,7 @@ ol {
 }
 
 .page {
-    width: 900px;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 
@@ -361,6 +359,79 @@ ol {
 
     text-shadow: 1px 1px 2px #887b7b, 2px 2px 4px #1f13af
 }
+
+    /* Page */
+.page {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #eee;
+}
+
+.header-item {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.header-tel {
+    order: 1;
+}
+
+.header-logo {
+    order: 2;
+}
+
+.header-lang {
+    order: 3;
+}
+
+.content {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+
+    background-color: #333;
+}
+
+.main {
+    width: 60%;
+    padding: 20px;
+
+    background-color: #ccc;
+}
+
+.footer {
+    padding: 10px;
+
+    background-color: #eee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
