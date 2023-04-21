@@ -1,7 +1,36 @@
+@font-face {
+    font-family: 'NewFonts';
+    src: url("../fonts/TTChocolates-Regular.woff") format('woff'),
+         url("../fonts/TTChocolates-Regular.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'NewFonts';
+    src: url("../fonts/TTChocolates-Bold.woff") format('woff'),
+         url("../fonts/TTChocolates-Bold.woff2") format('woff2');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'NewFonts';
+    src: url("../fonts/TTChocolates-Italic.woff") format('woff'),
+         url("../fonts/TTChocolates-Italic.woff2") format('woff2');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'NewFonts';
+    src: url("../fonts/TTChocolates-BoldItalic.woff") format('woff'),
+         url("../fonts/TTChocolates-BoldItalic.woff2") format('woff2');
+    font-weight: 700;
+    font-style: italic;
+}
+
 body {
     margin: 0;
 
-    font: 15px Arial, sans-serif;
+    font-family: 'NewFonts', sans-serif;
+    font-size: 15px;
     line-height: 1.5;
     color: #333;
 
@@ -15,14 +44,17 @@ body {
 }
 
 .title {
-    font-family: Tahoma, sans-serif;
     text-align: center;
-    font-weight: 700;
-    letter-spacing: -2px;
+    font-weight: 800;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
+blockquote {
+}
+
 .justify {
+    font-family: 'Amatic SC', cursive;
     text-align: justify;
     font-weight: 700;
     font-style: italic;
